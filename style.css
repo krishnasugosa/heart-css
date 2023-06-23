@@ -1,0 +1,34 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+
+.picture{
+    box-shadow: 2px 3px 3px 4px rgb(67, 6, 6);
+    width: 50vh;
+    height: 50vh;
+    margin: auto;
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    filter: contrast(150%);
+    width: 30vh;
+    height: 30vh;
+   animation: animate 2s infinite alternate;
+}
+
+@keyframes animate{
+    0%{
+        scale: 1;
+    }
+    50%{
+        scale: 1.2;
+    }
+    100%{
+        scale: 1;
+    }
+}
